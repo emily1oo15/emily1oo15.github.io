@@ -1,0 +1,54 @@
+html, body
+{
+	background-color:#e5e5e5;
+	color:blue;
+	font-size:16px
+	padding-left: 25px;
+}
+
+a:link
+
+{
+	color:white;
+}
+
+a:hover, a:focus
+
+{
+		color:pink;
+}
+
+a:visited
+
+{
+	color:red;
+	
+}
+
+.contactInfo
+{
+	background-color: #154ael;
+	font-size:15px;
+}
+
+.backgroundPurple
+{
+	background-color:purple;
+}
+
+ol
+{
+	list-style-type:lower-roman;
+	color:black;
+	font-size:2em;
+}
+
+ul
+{
+	list-style-image:url('bulletpoint.png')
+}
+
+p
+{
+	background-color:pink;
+}
