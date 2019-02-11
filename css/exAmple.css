@@ -1,9 +1,28 @@
+@charset "utf-8"
+
 html, body
 {
 	background-color:#e5e5e5;
 	color:blue;
 	font-size:16px
 	padding-left: 25px;
+}
+
+@font-face
+{
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	url (cac_champagne.ttf) format('ttf');
+}
+
+#mysection
+{
+	font-family: Champagne, cursive;
+}
+
+h1, h2, h3
+{
+	font-variant:small-caps;
 }
 
 a:link
@@ -51,4 +70,10 @@ ul
 p
 {
 	background-color:pink;
+}
+
+ul
+{
+	color:hsl(91, 8%, 56%);
+	background-color:hsla(0, 100%, 30%, 0.3);
 }
