@@ -25,7 +25,7 @@ physical theories of the time.
 
 One can hardly write a mathematical equation without 
 copying Euler. Notations still in use today, such 
-as e and [pi], were introduced 
+as e and &pi;, were introduced 
 in Euler's writings. Leonhard Euler died in 1783, 
 leaving behind a legacy perhaps unmatched, and 
 certainly unsurpassed, in the annals of mathematics.
@@ -42,10 +42,10 @@ which demonstrates the relationship between algebra,
 complex analysis, and trigonometry. From this 
 equation, it's easy to derive the identity:
 
-e^[pi]i+1=0
+e^&pi;i+1=0
 
 which relates the fundamental constants: 
-0, 1, [pi], e, and i in a single beautiful and 
+0, 1, &pi;, e, and i in a single beautiful and 
 elegant statement. A poll of readers 
 conducted by The Mathematical Intelligencer
 magazine named Euler's Identity as the 

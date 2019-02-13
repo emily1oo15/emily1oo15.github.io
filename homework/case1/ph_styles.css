@@ -1,4 +1,4 @@
-@charset "utf-8"
+ @charset "utf-8"
 
 @font-face
 
@@ -81,6 +81,12 @@ address
 	
 /* Navigation Styles */
 
+ul
+{
+	list-style: none;
+	line-height: 2em;
+	font-size: 0.9em;
+}
 
 a:link
 {
@@ -89,9 +95,14 @@ a:link
 	font-style: sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-variant: none;
 }
 
-
+a:visited
+{
+	font-variant: none;
+	color:rgb(43, 59, 125);
+}
 
 
 /* Section Styles */
