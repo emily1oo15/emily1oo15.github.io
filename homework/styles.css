@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 /*
 	Name: Emily Underwood
@@ -6,23 +6,45 @@
 	Assignment: Project 1, Diet Water
 */
 
-html, body@
+html, body
 {
-	background-color:#b9f6ed;
+	background-color:#B9FCF3;
 	color:#7f0aee;
 }
+
 	
-.main
+#main
 {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.contact
+#contact
 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 60%;
+}
+
+a:link
+{
+	color: black;
+}
+
+a:visited
+{
+	color:#002BF9;
+}
+
+
+a:hover
+{
+	color:pink;
+}
+
+a:focus
+{
+	color:green;
 }
