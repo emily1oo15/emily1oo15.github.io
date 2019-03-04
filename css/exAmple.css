@@ -6,6 +6,7 @@
 */
 
 html, body@
+
 {
 	background-color:#e5e5e5;
 	color:blue;
@@ -77,8 +78,45 @@ p
 	background-color:pink;
 }
 
+
 ul
 {
-	color:hsl(91, 8%, 56%);
+	color:hsl(180, 100%, 50%);
 	background-color:hsla(0, 100%, 30%, 0.3);
+}
+
+
+body
+{
+	border: 10px ridge mediumvioletred;
+	background-image:url('../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg');
+	background-repeat: axis-y;
+	background-position: top left, bottom right;
+	background-attachment:fixed; 
+	background-clip: border-box;
+}
+
+nav
+{
+	border-style: bold;
+	border-color: black;
+	border-top-width: 15px;
+	border-bottom-width: 5px;
+	border-left-width: 10px;
+	border-right-width: 20px;
+	border-image:url('../images/165660479a5d335') 10 repeat;
+}
+
+p
+{
+	border: 5px solid #154ael;
+	border-radius: 5px/15px;
+	padding: 25px;
+	box-shadow: green 15px 10px 12px;
+}
+
+
+li
+{
+	text-shadow: black 10px 5px 12px;
 }
