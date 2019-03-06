@@ -116,7 +116,7 @@ a#marker6
 
 div.mapInfo
 {
-	visibility: hidden;
+	display: none;
 }
 
 a.battleMarkers:hover+div.mapInfo
