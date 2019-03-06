@@ -1,0 +1,12 @@
+#gridImage
+{
+	filter:invert(100%) blur(3px);
+}
+
+#monkeyImage
+{
+	transform: skewx(25deg) translatey(50px);
+	opacity: .50;
+}
+	/*rotate(45deg) scale(.75) skewy(25deg) translate(300px,-125px)*/
+
