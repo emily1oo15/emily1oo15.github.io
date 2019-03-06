@@ -18,11 +18,9 @@
 
 article
 {
-	margin-left: float;
+	float:left;
 	width: 384px;
 }
-
-
 
 
 /* First Line and Drop Cap Styles */
@@ -46,17 +44,86 @@ article p:first-of-type:first-letter
 
 /* Aside Styles */
 
+aside
+{
+	width: 768px;
+	float: left;
+}
 
 
 
 /* Map Styles */
 
+div#battleMap
+{
+	width: 688px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;  
+	position: relative;
+}
 
+img#mapImage
+{
+	display: block;
+	width: 100%;
+}
 
 
 /* Interactive Map Styles */
+a#marker1
+{
+	 position: absolute;
+	 top: 200px;
+	 left: 340px;
+}
 
+a#marker2
+{
+	position: absolute;
+	top: 194px;
+	left: 358px;
+}
 
+a#marker3
+{
+	position: absolute;
+	top: 202px;
+	left: 400px;
+}
+
+a#marker4
+{
+	position: absolute;
+	top: 217px;
+	left: 452px;
+}
+
+a#marker5
+{
+	position: absolute;
+	top: 229px;
+	left: 498px;
+}
+
+a#marker6
+{
+	position: absolute;
+	top: 246px;
+	left: 544px;
+}
+
+div.mapInfo
+{
+	visibility: hidden;
+}
+
+a.battleMarkers:hover+div.mapInfo
+{
+	visibility: visible;
+	display: block;
+}
 
 
 /* Map Information Styles */
