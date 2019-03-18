@@ -1,6 +1,24 @@
+html
+{
+	background-image: url('monkey.jpg'); /*repeats image all across screen*/
+	background:no-repeat; /*double check this*/
+}
 #gridImage
 {
-	filter:invert(100%) blur(3px);
+	filter:grayscale(100%); /*blur (3px) invert(100%)*/
+	/*border-color: black;
+	border-width: 3px;
+	border-style: solid;*/
+	border:3px solid;
+	border-color: red;
+	border-radius: 30px 15px 5px 75px;
+}
+
+#imageDiv
+{
+	border:3px solid yellow;
+	width:985px;
+	box-shadow:green 50px 15px 15px;
 }
 
 #monkeyImage
@@ -9,4 +27,11 @@
 	opacity: .50;
 }
 	/*rotate(45deg) scale(.75) skewy(25deg) translate(300px,-125px)*/
+	
+p
+{
+	text-shadow: black 5px 5px 5px,red -5px -5px 5px; /*blur cannot be negative*/
+	transform: translate(500px, 250px) rotate(45deg);
+}
+	
 
