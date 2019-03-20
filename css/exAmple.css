@@ -10,7 +10,7 @@ html, body@
 {
 	background-color:#e5e5e5;
 	color:blue;
-	font-size:16px
+	font-size:16px;
 	padding-left: 25px;
 }
 
@@ -103,8 +103,8 @@ nav
 	border-top-width: 15px;
 	border-bottom-width: 5px;
 	border-left-width: 10px;
-	border-right-width: 20px;
-	border-image:url('../images/165660479a5d335') 10 repeat;
+	border-right-width: 50px;
+	border-image:url('images/165660479a5d335.jpg') repeat-x;
 }
 
 p
