@@ -18,18 +18,19 @@ html
 }
 	
 nav.links ul li
+
 {
 	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
-	width: 360px;
+	width: 450px;
 	font-family: Harrington;
 	list-style: none;
 	line-height:30px;
 	display: inline;
+	height:auto;
 	float: left;
-	height: auto;
 	margin: auto;
 }
 
@@ -38,6 +39,7 @@ nav.links a
 	display:inline;
 	text-align: center;
 	text-decoration: none;
+	
 }
 
 a:link
