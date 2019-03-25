@@ -19,7 +19,6 @@ html
 	
 nav.links ul li
 {
-	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
@@ -63,7 +62,6 @@ a:visited
 
 nav.links2 ul li
 {
-	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
@@ -73,8 +71,22 @@ nav.links2 ul li
 	line-height:30px;
 	display: inline;
 	height:auto;
-	float: left;
+	display:flex;
 	margin: auto;
+	filter: saturate(50%);
+	float: left;
+}
+
+nav.links ul
+{
+	list-style-type:none;
+	display:flex;
+}
+
+nav.links
+{
+	background-color:yellow;
+	filter: saturate(50%);
 }
 
 nav.links2 a
