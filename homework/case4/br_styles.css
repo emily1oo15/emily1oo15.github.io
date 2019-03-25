@@ -106,9 +106,10 @@ p
 	box-shadow: blue 5px 3px 10px;
 	float: right;
 	background-color: #FDFF7B;
-	transform: translatex(-40%) translatey(-250%);
+	transform: translatex(5%) translatey(-250%);
 	padding: 10px;
-	margin:10px
+	margin:10px;
+	display: flex;
 }
 
 h1, h2
