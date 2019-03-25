@@ -14,31 +14,34 @@
 */
 html
 {
-	background-image: url("br_paper.PNG");
-	background:no-repeat;
+	background-image: url("br_paper.png");
 }
 	
 nav.links ul li
 {
+	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
-	float: left;
-	width: 250px;
-	font-family: Book-Antiqua;
+	width: 360px;
+	font-family: Harrington;
 	list-style: none;
+	line-height:30px;
+	display: block;
+	float: left;
+	
 }
 
 nav.links a
 {
-	display: block;
+	display: block, center;
 	text-align: center;
 	text-decoration: none;
 }
 
 a:link
 {
-	color: white;
+	color: blue;
 }
 
 a:hover
@@ -51,6 +54,70 @@ a:visited
 	color: green;
 }
 
+#logo
+{
+	transform: translateY(1%);
+	filter: saturate(50%);
+}
+
+nav.links2 ul li
+{
+	filter: saturate(50%);
+	background-color: yellow;
+	font-size:20px;
+	font:white;
+	width: 450px;
+	font-family: Harrington;
+	list-style: none;
+	line-height:30px;
+	display: inline;
+	height:auto;
+	float: left;
+	margin: auto;
+}
+
+nav.links2 a
+{
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+}
+
+p
+{
+	filter: saturate(50%);
+	border: 5px solid green;
+	border-radius: 5px 5px 5px 5px;
+	width: 1000px;
+	height: auto;
+	box-shadow: blue 5px 3px 10px;
+	float: right;
+	background-color: #FDFF7B;
+	transform: translatex(-40%) translatey(-250%);
+	padding: 10px;
+	margin:10px
+}
+
+h1, h2
+{
+	display: block;
+	font-family: Harrington;
+	text-align: center;
+}
+
+nav.Description
+{
+	font-style: italic;
+	
+}
+
+#pictures
+{
+	float: left;
+	border: 4px solid green;
+	margin: 10px;
+	transform: translatey(-20%)
+}
 	
 	
 	
