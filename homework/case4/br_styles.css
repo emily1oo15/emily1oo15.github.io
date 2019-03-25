@@ -12,4 +12,45 @@
    Filename: br_styles.css
 
 */
+html
+{
+	background-image: url("br_paper.PNG");
+	background:no-repeat;
+}
+	
+nav.links ul li
+{
+	background-color: yellow;
+	font-size:20px;
+	font:white;
+	float: left;
+	width: 250px;
+	font-family: Book-Antiqua;
+	list-style: none;
+}
 
+nav.links a
+{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: white;
+}
+
+a:hover
+{
+	color: red;
+}
+
+a:visited
+{
+	color: green;
+}
+
+	
+	
+	

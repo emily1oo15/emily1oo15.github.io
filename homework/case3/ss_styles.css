@@ -63,9 +63,10 @@ nav.horizontal ul li {
 }
 
 nav.horizontal a {
-   display: block;
+   display: block, center;
    text-align: center;
    text-decoration: none;
+   
 }
    
 nav.horizontal a:link, nav.horizontal:visited {

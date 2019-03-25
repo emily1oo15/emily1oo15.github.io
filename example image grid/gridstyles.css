@@ -1,6 +1,6 @@
 html
 {
-	background-image: url('monkey.jpg'); /*repeats image all across screen*/
+	background-image: url("monkey.jpg"); /*repeats image all across screen*/
 	background:no-repeat; /*double check this*/
 }
 #gridImage
