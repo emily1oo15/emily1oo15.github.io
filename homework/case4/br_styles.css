@@ -101,15 +101,17 @@ p
 	filter: saturate(50%);
 	border: 5px solid green;
 	border-radius: 5px 5px 5px 5px;
-	width: 1000px;
+	width: 500px;
 	height: auto;
 	box-shadow: blue 5px 3px 10px;
 	float: right;
 	background-color: #FDFF7B;
-	transform: translatex(5%) translatey(-250%);
 	padding: 10px;
-	margin:10px;
-	display: flex;
+	display: block;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: -10%;
+	transform: translatey(-95%)
 }
 
 h1, h2
@@ -117,6 +119,12 @@ h1, h2
 	display: block;
 	font-family: Harrington;
 	text-align: center;
+	margin: auto;
+}
+
+h2
+{
+	transform:translatey(-100%);
 }
 
 nav.Description
