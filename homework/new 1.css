@@ -30,4 +30,33 @@ table.schedule caption
 	caption-side: bottom;
 	text-align: right;
 }
-		
+#SYFY
+{
+	background-color: green;
+	color: yellow;
+}
+#AMC
+{
+	background-color: blue;
+	color: white;
+}
+
+#WGNASD
+{
+	background-color: pink;
+	color: blue;
+}
+table.schedule th
+{
+	background-color: purple;
+	color: #6CE6FE;
+}
+
+td:hover
+{
+	background-color: #D4A3FE;
+}
+#SYFY:hover
+{
+	background-color: #D4A3FE;
+}
