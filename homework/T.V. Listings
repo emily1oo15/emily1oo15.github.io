@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html> 
+	<head>
+		<title>T.V. Listings</title>
+		<style>
+			<link rel="stylesheet" href="T.V. Listing Styles.css" />
+		</style>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>Mediacom T.V. Schedule</h1>
+			<table class="schedule">
+				<caption>TVLAND (4/8-4/15)</caption>
+				<tr>
+					<th>Time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+					<th>Saturday</th>
+					<th>Sunday</th>
+				</tr>
+				<tr>
+					<th>6:30 PM</th>
+					<td colspan="7">National News</td>
+				</tr>
+				<tr>
+					<th>7:00 PM</th>
+					<td rowspan="2">Opera Fest</td>
+					<td rowspan="2"> Radio U</td>
+					<td rowspan="2">Science Week</td>
+					<td rowspan="2"> The Living World</td>
+					<td>Word Play</td>
+					<td>Agri-week</td>
+					<td rowspan="2">Folk Fest</td>
+				</tr>
+			</table>
+	</body>
+</html>

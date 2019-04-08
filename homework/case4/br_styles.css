@@ -19,7 +19,6 @@ html
 	
 nav.links ul li
 {
-	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
@@ -27,16 +26,19 @@ nav.links ul li
 	font-family: Harrington;
 	list-style: none;
 	line-height:30px;
-	display: block;
+	display: inline;
 	float: left;
-	
+	height: auto;
+	margin: auto;
+	position: static;
 }
 
 nav.links a
 {
-	display: block, center;
+	display:inline;
 	text-align: center;
 	text-decoration: none;
+	position: static;
 }
 
 a:link
@@ -46,7 +48,7 @@ a:link
 
 a:hover
 {
-	color: red;
+	color:red;
 }
 
 a:visited
@@ -59,21 +61,37 @@ a:visited
 	transform: translateY(1%);
 	filter: saturate(50%);
 }
+/*Browyer Realty*/
 
 nav.links2 ul li
 {
-	filter: saturate(50%);
 	background-color: yellow;
 	font-size:20px;
 	font:white;
-	width: 450px;
+	width: 300px;
 	font-family: Harrington;
 	list-style: none;
 	line-height:30px;
 	display: inline;
 	height:auto;
-	float: left;
+	display:flex;
 	margin: auto;
+	filter: saturate(50%);
+	float: left;
+	position: static;
+}
+
+nav.links ul
+{
+	list-style-type:none;
+	display:flex;
+	position: static;
+}
+
+nav.links
+{
+	background-color:yellow;
+	filter: saturate(50%);
 }
 
 nav.links2 a
@@ -81,43 +99,86 @@ nav.links2 a
 	display: inline;
 	text-align: center;
 	text-decoration: none;
+	position: static;
 }
+/*all the nav.links have to do with the links in the yellow band at the top and bottom of the screen*/
 
 p
 {
 	filter: saturate(50%);
 	border: 5px solid green;
 	border-radius: 5px 5px 5px 5px;
-	width: 1000px;
+	width: 500px;
 	height: auto;
 	box-shadow: blue 5px 3px 10px;
 	float: right;
 	background-color: #FDFF7B;
-	transform: translatex(-40%) translatey(-250%);
 	padding: 10px;
-	margin:10px
+	display: block;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: -10%;
+	transform: translatey(-95%);
+	position: static;
+	font-style: italic;
 }
+/*paragraph in the yellow box under "Listing"*/
 
-h1, h2
+address
+{
+	text-shadow: 2px 2px 8px #56339a;
+}
+/*address above first picture*/
+
+h1
 {
 	display: block;
 	font-family: Harrington;
 	text-align: center;
+	font-style: italic;
+	background-image: repeating-radial-gradient(circle, #6d8149 10%, #FFFDC6 50%); 
+	border-style: 2px dotted blue;
+	border-radius: 100%;
+	width: 30%;
+	margin: auto;
+	position: static;
+	color: #56339a;
 }
+/*Listing*/
+
+h2
+{
+	display: inline-block;
+	font-family: Harrington;
+	font-style: italic;
+	background-image: repeating-radial-gradient(circle, #6d8149 10%, #FFFDC6 50%); 
+	border-style: 2px dotted blue;
+	border-radius: 100%;
+	width: 30%;
+	position: static;
+	margin: auto;
+	text-align: center;
+	transform: translatey(-400%) translatex(115%);
+	color: #56339a;
+}
+/*View*/
 
 nav.Description
 {
 	font-style: italic;
-	
+	text-shadow: 2px 2px 8px #56339a;
 }
+/*list that contains things such as price and bath*/
 
 #pictures
 {
 	float: left;
 	border: 4px solid green;
 	margin: 10px;
-	transform: translatey(-20%)
+	transform: translatey(-20%);
+	background-image: linear-gradient(yellow, blue);
 }
+/*images at the bottom of the page*/
 	
 	
 	
