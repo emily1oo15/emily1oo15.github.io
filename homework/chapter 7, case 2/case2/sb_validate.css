@@ -14,3 +14,20 @@
 
 /* Validation Styles */
 
+input:not([type='radio'])
+{
+	background-color: rgb(255, 218, 165);
+}
+
+input focus valid:not([type='radio'])
+{
+	background-color: rgb(215,255,215);
+	background-image: url('sb.valid.png);
+	background-repeat: repeat-x;
+}
+
+input focus invalid:not([type='radio'])
+{
+	background-color: rgb(255, 245, 215);
+	
+
