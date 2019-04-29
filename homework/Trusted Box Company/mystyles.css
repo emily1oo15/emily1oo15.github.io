@@ -122,6 +122,19 @@ fieldset
 	text-align:center;
 	display: vertical-align;
 }
+#skip
+{
+	position:absolute;
+	left:-999px;
+}
+#skip:focus
+{
+	position:realitive;
+	left:0px;
+	background-color:#FEFB4B;
+}
+
+
 @media only screen and (max-width:600px)
 {
 	
