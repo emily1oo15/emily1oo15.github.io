@@ -19,6 +19,11 @@
 	 margin:auto;
  }
 
+#1box
+{
+	width:50%
+}
+
  article
  {
 	 background-color: white;
@@ -116,54 +121,58 @@ fieldset
 	text-align:center;
 	display: vertical-align;
 }
-@media only screen and (min-width:600px)
+@media only screen and (max-width:600px)
 {
 	
 	html
 	{
-		display:block;
+		display:inline;
 	}
 	
 	body
 	{
-		display:block;
+		display:inline;
+		width:100%;
 	}
 	
-
+	#box
+	{
+		width:50%;
+	}
+	#1box
+	{
+		width:50%;
+	}
+	
 	#everything
 	{
-		max-width:100%;
-		max-height:auto;
+		margin:none;
+		width:100%;
 	}
 	
 	nav.links ul li
 	{
-	background-color: #FEFB4B;
-	font-size:20px;
-	font:white;
 	width:100%;
 	list-style:none;
-	line-height:30px;
 	display:inline;
 	height:auto;
 	margin: auto;
 	position:static;
 	float:auto;
+	font-size:75%;
 	}
 
 	nav.links a
 	{
 	display:inline;
 	text-align: center;
-	text-decoration:none;
-	position:static;
 	}
 
 	nav.links ul
 	{
 	list-style-type:none;
 	display:flex;
-	position:static;
+
 	}
 		
 }
