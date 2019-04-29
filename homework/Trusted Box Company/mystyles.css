@@ -116,3 +116,78 @@ fieldset
 	text-align:center;
 	display: vertical-align;
 }
+@media only screen and (min-width:600px)
+{
+	
+	html
+	{
+		display:block;
+	}
+	
+	body
+	{
+		display:block;
+	}
+	
+
+	#everything
+	{
+		max-width:100%;
+		max-height:auto;
+	}
+	
+	nav.links ul li
+	{
+	background-color: #FEFB4B;
+	font-size:20px;
+	font:white;
+	width:100%;
+	list-style:none;
+	line-height:30px;
+	display:inline;
+	height:auto;
+	margin: auto;
+	position:static;
+	float:auto;
+	}
+
+	nav.links a
+	{
+	display:inline;
+	text-align: center;
+	text-decoration:none;
+	position:static;
+	}
+
+	nav.links ul
+	{
+	list-style-type:none;
+	display:flex;
+	position:static;
+	}
+		
+}
+@media only print
+{
+	body
+	{
+		background-color: white;
+		color: black;
+	}
+	
+	img
+	{
+		display: none;
+	}
+	
+	nav.links
+	{
+		display:none;
+	}
+	iframe
+	{
+		display:none;
+	}
+}
+
+	
