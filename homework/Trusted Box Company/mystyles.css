@@ -6,7 +6,116 @@
          Date:     4/27/2019
  */
  
+
+ html:not([body])
+ {
+	 width: 75%;
+	 background-color: #EBC081;
+ }
+ html
+ {
+	 text-align:center;
+	 max-width: 100%;
+	 margin:auto;
+ }
+
+ article
+ {
+	 background-color: white;
+ }
+ 
+ #everthing
+ {
+	 display:flex;
+	 margin-right: -50%;
+ }
+
+nav.links ul li
+{
+	background-color: #FEFB4B;
+	font-size:20px;
+	font:white;
+	width:100%;
+	list-style:none;
+	line-height:30px;
+	display:inline;
+	height:auto;
+	margin: auto;
+	position:static;
+}
+
+nav.links a
+{
+	display:inline;
+	text-align: center;
+	text-decoration:none;
+	position:static;
+	max-width:100%;
+	font:white;
+}
+
+nav.links ul
+{
+	list-style-type:none;
+	display:flex;
+	position:static;
+	max-width: 100%;
+	font:white;
+}
+
  body
  {
 	 background-color: #a58855;
  }
+ footer
+ {
+	 background-color: black;
+	 color: white;
+ }
+ 
+ table.schedule
+ {
+	border: 1px solid black;
+	width: 100%;
+	 border-collapse: collapse;
+	 background: white;
+ }
+ 
+ table.schedule th, table.schedule td
+ {
+	 border: 1px solid black;
+ }
+ 
+ table.schedule caption
+ {
+	 caption-side: top;
+	 text-align: center;
+ }
+ 
+#weekDay1
+{
+	background-color: #FEFB4B;
+}
+
+.buttons
+{
+	display:flex;
+}
+
+fieldset
+{
+	display:vertical-align;
+	text-align: center;
+}
+
+#messageNeed
+{
+	text-align: center;
+	display: vertical-align;
+}
+
+#contacts
+{
+	text-align:center;
+	display: vertical-align;
+}
