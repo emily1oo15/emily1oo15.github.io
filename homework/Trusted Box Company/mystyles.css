@@ -67,6 +67,8 @@ nav.links ul
  body
  {
 	 background-color: #a58855;
+	border-radius: 25px;
+	padding:10px;
  }
  footer
  {
@@ -147,6 +149,7 @@ fieldset
 	{
 		margin:none;
 		width:100%;
+		display:flex;
 	}
 	
 	nav.links ul li
@@ -171,9 +174,14 @@ fieldset
 	{
 	list-style-type:none;
 	display:flex;
-
 	}
-		
+	
+	#contactPage
+	{
+		label
+		{
+			display:above;
+		}
 }
 @media only print
 {
