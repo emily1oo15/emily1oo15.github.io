@@ -147,15 +147,16 @@ fieldset
 	{
 		display:inline;
 		width:100%;
+		text-align:center;
 	}
 	
 	#box
 	{
-		width:50%;
+		width:10%;
 	}
 	#1box
 	{
-		width:50%;
+		width:10%;
 	}
 	
 	#everything
@@ -169,17 +170,17 @@ fieldset
 	{
 	width:100%;
 	list-style:none;
-	display:inline;
+	display:block;
 	height:auto;
 	margin: auto;
-	position:static;
-	float:auto;
+	position:realitive;
 	font-size:75%;
+	
 	}
 
 	nav.links a
 	{
-	display:inline;
+	display:flex;
 	text-align: center;
 	}
 
@@ -188,13 +189,19 @@ fieldset
 	list-style-type:none;
 	display:flex;
 	}
-	
-	#contactPage
+	footer
 	{
-		label
-		{
-			display:above;
-		}
+		text-align:center;
+		display:inline;
+		width:100%;
+	}
+	table
+	{
+		position:realitive;
+		text-align:center;
+		display:flex;
+	}
+	
 }
 @media only print
 {
