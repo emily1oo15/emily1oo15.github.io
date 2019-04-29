@@ -42,6 +42,7 @@ nav.links ul li
 	height:auto;
 	margin: auto;
 	position:static;
+	float:auto;
 }
 
 nav.links a
@@ -50,8 +51,6 @@ nav.links a
 	text-align: center;
 	text-decoration:none;
 	position:static;
-	max-width:100%;
-	font:white;
 }
 
 nav.links ul
@@ -59,8 +58,6 @@ nav.links ul
 	list-style-type:none;
 	display:flex;
 	position:static;
-	max-width: 100%;
-	font:white;
 }
 
  body
